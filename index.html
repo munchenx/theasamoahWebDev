@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development-Agency</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <span>
+        <a href="#home">
+            <img
+                class="img2"
+                src="images/logo.png"
+                width="350"
+                style="margin: -60px"/>
+        </a>
+    </span>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-nav-link>Pricing</a>
+          </li>
+
+    
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#footer" class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Building Digital <span class="has-before">Business</span>, Brands and Experience
+            </h1>
+
+            <p class="hero-text">
+              We make the web a better place by building more fascinating websites!
+              We specialize in designing, building, developing and creating beautiful, 
+              usable products with blazing-fast efficiency.
+            </p>
+
+            <div class="wrapper">
+              <a href="#service" class="btn btn-primary has-before has-after">How It Works</a> 
+            </div>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Our Services</p>
+
+          <h2 class="h2 section-title text-center">Manage Your Business with Our <span class="has-before">Best
+            Services</span></h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card" style="--color: 174, 77%, 50%">
+
+                <div class="card-icon">
+                  <img src="images/service-icon-1.png" width="30" height="30" loading="lazy" class="banner-animation"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                    <a href="#" class="card-title">Web Development</a>
+                </h3> <br>
+                <p>Create a visually apealing and userfriendly website with responsive design 
+                    for optimal viewing across different devices.
+                  </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
+
+                <div class="card-icon">
+                  <img src="images/service-icon-2.png" width="30" height="30" loading="lazy" class="banner-animation"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                    <a href="#" class="card-title">Mobile App Development</a>
+                </h3> <br>
+                <p>Develope a tailor-made <em>mobile or web app</em>, tailored to the unique needs and 
+                    requirements of the client, resulting in a personalized online presence.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 17, 100%, 68%">
+
+                <div class="card-icon">
+                  <img src="images/service-icon-3.png" width="30" height="30" loading="lazy" class="banner-animation"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                    <a href="#" class="card-title">Digital/Social Marketing</a>
+                </h3> <br>
+                <p>Building <em>Brand Awareness</em> to pull qualified leads into the pipeline and send 
+                    them to your sales team when they are most Ready.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 343, 98%, 60%">
+
+                <div class="card-icon">
+                  <img src="images/service-icon-4.png" width="30" height="30" loading="lazy" class="banner-animation"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                    <a href="#" class="card-title">Web Design</a>
+                </h3> <br>
+                <p>Your website is <em>Important</em>, and it's key to have a platform that is <em>reliable and easy 
+                    to use.</em> We leverage the Latest and Greatest digital technologies to build Dynamic, 
+                   Interesting and Momorable websites.
+                  </p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="images/feature-banner.png" width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle has-before">Why Choose us</p>
+
+            <h2 class="h2 section-title">
+              We Bring Solutions to make Life Easier for <span class="has-before">Our Clients</span>
+              </h2>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 174, 77%, 50%">
+                    <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Fast working process</h3>
+                    <p class="card-text">
+                        Blending Creativity and Functionality, we create <em>Unique</em>, <em>Responsive Websites</em>
+                        that represent <em>Your Brand Perfectly.</em>
+                      </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 241, 77%, 63%;">
+                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Mantainance and Support</h3>
+                    <p class="card-text">
+                        We offer <em>Comprehensive Web-Hosting</em> and <em>Maintenance Services</em> to ensure 
+                        Your website remains Secure, Up-to-Date and Optimised for Peak Performance.
+                      </p>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Projects</p>
+          <h2 class="h2 section-title text-center">
+            See our <span class="has-before">Pricing</span>
+          </h2>
+          <div class="snip1265">
+            <div class="plan">
+              <header><i class="ion-ios-navigate-outline"></i>
+                <h4 class="plan-title">
+                  Starter
+                </h4>
+                <div class="plan-cost"><span class="plan-price">GHc2,000</span></div>
+              </header>
+              <ul class="plan-features">
+                <li>Single Page(Brochure Type)</li>
+                <li>Free Web-Hosting</li>
+                <li>1 Free Domain Name</li>
+                <li>Free SSL</li>
+                <li>Social Engine Optimization(SEO)</li>
+                <li>Local Directory Listing</li>
+                <li>Contact Form</li>
+                <li>Social Media Links</li>
+                <li>Completion In: 5days</li>
+              </ul>
+              <div class="plan-select"><a href="#footer">Pitch a Project</a></div>
+            </div>
+            <div class="plan">
+              <header><i class="ion-ios-world"></i>
+                <h4 class="plan-title">
+                  Basic
+                </h4>
+                <div class="plan-cost"><span class="plan-price">GHc3,000</span></div>
+              </header>
+              <ul class="plan-features">
+                <li>Multi Pages(up-to 5)</li>
+                <li>Free Web-Hosting</li>
+                <li>1 Free Domain Name</li>
+                <li>Free SSL</li>
+                <li>Social Engine Optimization(SEO)</li>
+                <li>Local Directory Listing</li>
+                <li>Contact/Registration Form</li>
+                <li>Social Media Pages Integration</li>
+                <li>Completion In: 7days</li>
+              </ul>
+              <div class="plan-select"><a href="#footer">Pitch a Project</a></div>
+            </div>
+            <div class="plan featured">
+              <header><i class="ion-ios-people"></i>
+                <h4 class="plan-title">
+                  Professional
+                </h4>
+                <div class="plan-cost"><span class="plan-price">GHc4,500</span></div>
+              </header>
+              <ul class="plan-features">
+                <li>Multi Pages(up-to 10)</li>
+                <li>Free Web-Hosting</li>
+                <li>1 Free Domain Name</li>
+                <li>Free SSL</li>
+                <li>Social Engine Optimization(SEO)</li>
+                <li>Local Directory Listing</li>
+                <li>Contact/Registration Forms</li>
+                <li>Social Media Pages Integration</li>
+                <li>Completion In: 10days</li>
+              </ul>
+              <div class="plan-select"><a href="#footer">Pitch a Project</a></div>
+            </div>
+            <div class="plan">
+              <header><i class="ion-ios-speedometer"></i>
+                <h4 class="plan-title">
+                  Ultra
+                </h4>
+                <div class="plan-cost"><span class="plan-price">GHc6,000</span></div>
+              </header>
+              <ul class="plan-features">
+                <li>Unlimited Pages</li>
+                <li>Unlimited Web-Hosting</li>
+                <li>1 Free Domain Name</li>
+                <li>Free SSL</li>
+                <li>Local Directory Listing</li>
+                <li>Social Engine Optimization(SEO)</li>
+                <li>Contact/Registration Forms</li>
+                <li>Ecommerce Functionality</li>
+                <li>Completion In: 10-15days</li>
+              </ul>
+              <div class="plan-select"><a href="#footer">Pitch a Project</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!-- 
+    - #FOOTER
+  -->
+  <section>
+  <footer id="footer">
+    <div class="footer-split">
+      <div class="split-2">
+        <h2 class="subtitle">About Us</h2>
+        <p>We are a constantly-expanding web development agency in Accra. <br>
+          We build websites and mobile applications. Our mission is creating more 
+          fascinating websites with particular focus on speed optimization and accessibility.
+        </p>
+        <h2 class="subtitle">Let’s Connect</h2>
+        <ul class="social-list">
+
+          <li>
+            <a href="tel:+233275288497" class="social-link">
+              <ion-icon name="call-outline"></ion-icon>
+            </a>
+          </li>
+          <li> 
+            <a href="https://wa.me/233275288497" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a> 
+          </li>
+          <li>
+            <a href="https://twitter.com/@quame_venom" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://tiktok.com/@theasamoah" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="split-2">
+        <h2 class="subtitle">Reach Us Out!</h2>
+        <form>
+          <div class="required">
+            <div>
+              <input type="text" name="firstName" placeholder="First Name" required />
+              <input type="text" name="lastName" placeholder="Last Name" required />
+            </div>
+            <div>
+              <input type="email" required placeholder="Email" required />
+              <input type="tel" required placeholder="Phone Number" required />
+            </div>
+            <textarea placeholder="message" rows="5"></textarea>
+            <input type="submit" value="Send Now" />
+          </div>
+        </form>
+      </div>
+      </div>
+      <div class="copyright">
+        <span>
+        <a href="#home">
+            <img
+                class="img2"
+                src="images/logo.png"
+                width="300"
+                style="margin: -60px"/>
+        </a>
+    </span>
+        <div>
+          <p>
+            &copy; All Rights Reserved by 
+            <a href="https://theasamoah.netlify.app/">theasamoah.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+ </section>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
